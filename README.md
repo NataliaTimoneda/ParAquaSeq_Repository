@@ -19,7 +19,7 @@ The specific objective of this database (D1.WG3) within the ParAqua project is t
 * Inventory Parasite Effects: Document and analyze the effects of zoosporic parasites on algal hosts in both natural and biotechnological contexts.
 
 ## Accessing to Zoosporic Databases
-- [Fasta file](sequences.fasta(https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/releases/download/sequences.fasta)
+- [Fasta file](https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/blob/main/files/sequences.fasta)
 - [pr2_version_4.14.0_ssu_taxo_long.fasta.gz](https://github.com/pr2database/pr2database/releases/download/v4.14.0/pr2_version_4.14.0_ssu_taxo_long.fasta.gz)
 - [pr2_version_4.14.0_ssu_taxo_long.fasta.gz](https://github.com/pr2database/pr2database/releases/download/v4.14.0/pr2_version_4.14.0_ssu_taxo_long.fasta.gz)
 
