@@ -1,4 +1,4 @@
-# Zoosporic Parasites Repository
+# ParaQuaSeq Repository
 
 ## Introduction
 
