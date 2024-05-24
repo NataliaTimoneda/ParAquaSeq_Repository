@@ -1,5 +1,4 @@
-# ParAquaSeq Repository
-
+# ParAquaSeq Repository ![Logo](https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/blob/main/files/logo.png)
 ## Introduction
 
 Welcome to the ParAquaSeq repository. This database is a part of a larger, innovative project aimed at addressing the significant impact of zoosporic parasites on both natural ecosystems and the microalgae biotech industry. Zoosporic parasites, which include fungi and fungi-like aquatic microorganisms, are crucial drivers of natural populations and can cause severe host mortality. Their economic impacts are particularly notable in the microalgae biotech industry, affecting the production of food ingredients, biofuels, pharmaceuticals, and nutraceuticals.
