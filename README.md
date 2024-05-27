@@ -1,4 +1,4 @@
-# ParAquaSeq Repository  <img src="https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/blob/main/files/logo.png" alt="Logo" width="100" />
+# ParAquaSeq Repository  <img src="https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/blob/main/files/ParAqua_logo.png" alt="Logo" width="100" />
 
 ## Introduction
 
