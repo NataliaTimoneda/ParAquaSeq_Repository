@@ -33,7 +33,7 @@ for (seq_start in seq(from=0, to=number_records, by=500)){
 Custom_web_NoHostA<-unlist(Custom_web_NoHostA, recursive = FALSE)
 
 # NOTE:Choose the needed variables out of 32 available in the list
-desired_fields <- lapply(Custom_web_NoHost, extract_from_esummary, c('uid', 'taxid', "organism", 'caption', 'title', 'extra', 'strain', 'moltype', 'biomol', 'subtype', 'subname', 'strand', 'slen'), simplify=FALSE)
+desired_fields <- lapply(Custom_web_NoHostA, extract_from_esummary, c('uid', 'taxid', "organism", 'caption', 'title', 'extra', 'strain', 'moltype', 'biomol', 'subtype', 'subname', 'strand', 'slen'), simplify=FALSE)
 
 #Extracting information from lists to one table
 DB_test1_NoHost <- rbind(sapply(desired_fields, unlist))
