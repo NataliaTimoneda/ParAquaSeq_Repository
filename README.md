@@ -126,8 +126,8 @@ This R script performs a search on the NCBI database to extract sequence informa
 
 ## How to cite it
 
--  ParAquaSeq Databases and scripts, DOI: XX.XXX/zenodo.XXXXXXX
-- Van den Wyngaert S., Cerbin S., Garzoli L., Grossart H., et. al. Parasite rRNA sequences database: ParAquaSeq. Journal. PMID.
+- ParAquaSeq Databases and scripts, DOI: XX.XXX/zenodo.XXXXXXX
+- Author 1, Author 2, Author 3, Author 4, et. al. Parasite rRNA sequences database: ParAquaSeq. Journal. PMID.
 
 ## Report issues
 Please report any issue on [GitHub](https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/issues)
