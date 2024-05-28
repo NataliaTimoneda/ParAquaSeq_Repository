@@ -44,7 +44,7 @@ The specific objective of this database (D1.WG3) within the ParAqua project is t
     - **Taxa**: The taxonomic classification of the organism from which the sequence was obtained. Includes 7 ranks: Kingdom (k), Phylum (p), Class (c), Order (o), Family (f), Genere (g), Specie (s).
     </p>
     </details>
-- [Fasta file for VSEARCH]()
+- [Fasta file for VSEARCH](https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/blob/main/files/sequences_vsearch.fasta)
   <details><summary> Click to see details</summary>
   <p>
     
@@ -63,11 +63,11 @@ In this section, we will guide you through the process of perform BLAST searches
   ### Prerequisites
   Before you begin, ensure that you have BLAST (Basic Local Alignment Search Tool) installed on your system/server. You can download and install BLAST from the [NCBI BLAST+ download page.](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
   ### Download the BLAST Database
-  Download the provided BLAST database files from the repository. The database consists of several files with a common prefix (Seq_blast_db). Ensure all files are downloaded to the same directory.
+  Download the provided BLAST database files from the repository. The database consists of several files ([.nhr](https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/blob/main/files/blast_ddbb.nhr), [.nin](https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/blob/main/files/blast_ddbb.nin) and [.nsq](https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/blob/main/files/blast_ddbb.nsq)) with a common prefix (blast_ddbb). Ensure all files are downloaded to the same directory.
   ### Run a BLAST Search
   Once you have downloaded the database files, you can run a BLAST search against the database using the blastn command. Here’s an example of how to run a nucleotide BLAST search:
   ```shell  
-  blastn -query query_sequence.fasta -db  Seq_blast_db -out results.txt -outfmt 6
+  blastn -query query_sequence.fasta -db  blast_ddbb -out results.txt -outfmt 6
   ```
   - query query_sequence.fasta: Specifies the query sequence file in FASTA format.
   - db path/to/my_blast_db: Specifies the path and prefix of the provided database files.
@@ -85,7 +85,7 @@ In this section, we will guide you through the process of using the provided dat
   ### Prerequisites
   Before you begin, ensure that you have VSEARCH installed on your system. You can download and install VSEARCH from the [VSEARCH GitHub repository.](https://github.com/torognes/vsearch)
   ### Download the VSEARCH Database
-  Download the provided VSEARCH fasta file from the repository.
+  Download the provided [VSEARCH fasta file](https://github.com/NataliaTimoneda/ZoosporicParasitesRepository/blob/main/files/sequences_vsearch.fasta) from the repository.
   ### Run a VSEARCH Search
   Once you have downloaded the database files, you can run a search against the database using VSEARCH. Here’s an example of how to perform a search:
   ```shell
